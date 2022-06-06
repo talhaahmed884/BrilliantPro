@@ -123,17 +123,14 @@
         <br>
         <h1>Statistics</h1>
         <div name = "will-hold-charts">
-            <div class="row">
-                <div style="max-width: 60%; padding:0.5rem;">
+                <div style="max-width: 100%; padding:0.5rem;">
                     <mat-card >
+                        <google-chart style="margin: auto;" [data]="pieChart"></google-chart>
                     </mat-card>
                 </div>
-                <div style="max-width: 40%; margin:auto; padding:0.5rem;">
-                    <mat-card>
-                    </mat-card>
-                </div>
-            </div>
         </div>
+
+
 
     </div>
 </div>
