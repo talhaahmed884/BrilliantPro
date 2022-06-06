@@ -1,0 +1,46 @@
+.page {
+    color: #9B9FB1;
+    padding: 20px 1rem;
+    background: #191B2A;
+}
+.page__content {
+    min-height: calc(100vh - 83px);
+    border-radius: 10px;
+    
+}
+h1{
+    color: #9B9FB1;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+mat-card{
+    background: #252a3d !important;
+}
+
+mat-card-header{
+    color: #9B9FB1 !important;
+}
+mat-card-title{
+    font-size: medium !important;
+}
+mat-card-subtitle{
+    color: #9B9FB1 !important;
+    font-size: 30px !important;
+    font-weight: bold !important;
+    margin-top: 10px !important;
+}
+
+.CourseContainer{
+    max-width: 100%; 
+    padding:1rem; 
+    background: #252a3d; 
+    border-radius:5px;
+    overflow-x: auto !important;
+    display: flex !important;
+}
+.CourseContainer::-webkit-scrollbar{
+    /* width: 100% !important;
+    height: 10px; */
+    scrollbar-color: red black; 
+}
